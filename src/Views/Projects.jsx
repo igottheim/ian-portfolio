@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import '/Users/iangottheim/Development/code/projects/ian-portfolio/src/assets/css/index.css';
+import'../assets/css/index.css';
 
 import { Breadcrumbs } from "react-daisyui";
 
