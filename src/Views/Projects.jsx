@@ -10,8 +10,9 @@ function Projects() {
   return (
     <>
    <div>Portfolio For Ian Gottheim in Progress</div>
-   <div href = "https://www.linkedin.com/in/ian-gottheim/">Click for LinkedIn</div>
-   <div href = "https://github.com/igottheim">Click for Github</div>
+   <a href = "https://www.linkedin.com/in/ian-gottheim/">Click for LinkedIn</a>
+   <div></div>
+   <a href = "https://github.com/igottheim">Click for Github</a>
    <div>Phone: 201-906-2950</div>
    <div>Email: iangottheim@gmail.com</div>
    </>
