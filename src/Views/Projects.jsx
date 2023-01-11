@@ -18,7 +18,6 @@ function Projects() {
    <div>Phone: 201-906-2950</div>
    <div>Email: iangottheim@gmail.com</div>
 
-   <div><img className = "ian" src = '../public/images/108734347.jpg'></img></div>
    </>
   )
 }
