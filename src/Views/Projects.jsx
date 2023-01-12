@@ -19,7 +19,7 @@ function Projects() {
    <div>Phone: 201-906-2950</div>
    <div>Email: iangottheim@gmail.com</div>
    </div>
-   <div>Check Out Some Amazing ProjectS I Worked On!
+   <div>Check Out Some Amazing Projects I Worked On!
    <div>
     <a href = "https://flatironopensource.ml/">Flatiron Open Source</a>
     </div>
