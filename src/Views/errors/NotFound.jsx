@@ -1,6 +1,6 @@
 import CoreFooter from "../../Components/CoreFooter";
 import CoreHeader from "../../Components/CoreHeader";
-import ErrorsHero from "../../components/Errors/ErrorsHero";
+import ErrorsHero from "../../Components/Errors/ErrorsHero";
 
 
 function NotFound() {
