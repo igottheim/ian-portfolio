@@ -21,7 +21,7 @@ function CoreHeader(){
                 <Navbar.End>
                     <Menu horizontal className="p-0">
                         <Menu.Item>
-                        <Link href="https://github.com/igottheim" target="_blank"><BsLinkedin/></Link>
+                        <Link href="https://www.linkedin.com/in/ian-gottheim/" target="_blank"><BsLinkedin/></Link>
                         <Link href="https://github.com/igottheim" target="_blank"><BsGithub/></Link>
                         </Menu.Item>
                     </Menu>
