@@ -4,7 +4,7 @@ function AboutHero() {
   return(
     <Hero>
       <Hero.Overlay />
-      <Hero.Content className=" text-left">
+      <Hero.Content className="flex flex-col md:flex-row text-left">
 
     <ul className="list-disc pb-4"> 
       <h1 className="pb-4">About Ian</h1>

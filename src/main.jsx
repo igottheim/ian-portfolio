@@ -6,6 +6,7 @@ import './assets/css/index.css';
 import Projects from './Views/Projects';
 import About from './Views/About'
 import WorkExperience from './Views/WorkExperience';
+import NotFound from './Views/errors/NotFound';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -18,7 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/projects" element={<Projects></Projects>} />
 
         {/* Error Pages */}
-        {/* <Route path='/*' element={<NotFound />} /> */}
+        <Route path='/*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
