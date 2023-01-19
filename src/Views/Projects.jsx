@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import CoreHeader from '../Components/CoreHeader';
-
+import CoreFooter from '../Components/CoreFooter';
 import'../assets/css/index.css';
 import '../assets/css/index1.css'
-import CoreFooter from '../Components/CoreFooter';
+
 import ProjectsHero from '../Components/Projects/ProjectsHero';
 
 
