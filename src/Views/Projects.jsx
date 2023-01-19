@@ -13,11 +13,9 @@ function Projects() {
 
   return (
     <>
-    
     <CoreHeader></CoreHeader>
     <ProjectsHero/>
    <CoreFooter></CoreFooter>
-
    </>
   )
 }

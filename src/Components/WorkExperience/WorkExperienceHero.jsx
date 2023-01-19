@@ -7,7 +7,7 @@ function WorkExperienceHero() {
       <Hero.Content className=" text-left">
     
     <ul className="list-disc">
-    <h1 className="pt-4">Work Experience</h1>
+    <h1 className="pt-4">Work Experience <a className= "link link-hover" href = "/IanGottheimResume2023.pdf" target = "_blank">[Resume]</a></h1>
       <ul className="list-disc pb-4 pt-4"> <Link href ="    https://www.balfourbeatty.com/">Balfour Beatty</Link>: Senior Project Engineer 
   
         <li>Dates Worked:  08/2015 - 05/2018</li>
@@ -29,7 +29,7 @@ function WorkExperienceHero() {
         <li>Dates Worked:  01/2023 - Present</li>
       </ul>
     </ul>
-   <img src="/108734347.jpg" alt="FSOS" className="w-50"/>
+   <img src="/WTC.jpg" alt="FSOS" className="object-scale-down h-100 w-96"/>
       </Hero.Content>
     </Hero>
   );
