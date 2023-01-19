@@ -4,7 +4,7 @@ import { BsGithub, BsLinkedin} from "react-icons/bs";
 
 function CoreHeader(){
     return (
-        <div className="flex flex-col w-full font-sans">
+        <div className="flex flex-col">
             <Navbar>
                 
                 <Navbar.Start> 
@@ -13,13 +13,13 @@ function CoreHeader(){
               </Navbar.Start>
               
               <Navbar.Center>
-                <Button href="/" className="link link-hover px-4">About Me</Button>
-                <Button href="/workexperience" className="link link-hover px-4">Work Experience</Button>
+                <Button href="/" className="link link-hover px-2">About Me</Button>
+                <Button href="/workexperience" className="link link-hover px-2">Work Experience</Button>
                 <Button href="/projects" className="link link-hover">Projects</Button>
 
               </Navbar.Center>
                 <Navbar.End>
-                    <Menu horizontal className="p-0">
+                    <Menu horizontal>
                         <Menu.Item>
                         <Link href="https://www.linkedin.com/in/ian-gottheim/" target="_blank"><BsLinkedin/></Link>
                         <Link href="https://github.com/igottheim" target="_blank"><BsGithub/></Link>
