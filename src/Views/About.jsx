@@ -1,22 +1,23 @@
 import { useState } from 'react'
 import CoreFooter from '../Components/CoreFooter';
 import CoreHeader from '../Components/CoreHeader';
+import AboutHero from '../Components/About/AboutHero';
 
 import { Breadcrumbs } from "react-daisyui";
 
 import'../assets/css/index.css';
 
 function About() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <>
-    
+   
+    <div>
     <CoreHeader></CoreHeader>
-
+    <AboutHero></AboutHero>
    <CoreFooter></CoreFooter>
-
-   </>
+   </div>
+   
   )
 }
 
