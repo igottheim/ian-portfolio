@@ -2,7 +2,7 @@ import { Footer } from "react-daisyui";
 
 function CoreFooter(){
     return (
-        <Footer className="flex flex-col md:flex-row p-5 text-neutral-content relative">
+        <Footer className="p-5 text-neutral-content relative">
             <div>
                 <a>© Ian Gottheim</a>
                 <a>Civil Engineer || Software Engineer</a>

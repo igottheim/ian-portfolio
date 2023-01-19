@@ -4,7 +4,7 @@ function WorkExperienceHero() {
   return(
     <Hero>
       <Hero.Overlay />
-      <Hero.Content className="flex flex-col md:flex-row text-left">
+      <Hero.Content className=" text-left">
     
     <ul className="list-disc">
     <h1 className="pt-4">Work Experience <a className= "link link-hover" href = "/IanGottheimResume2023.pdf" target = "_blank">[Resume]</a></h1>

@@ -4,7 +4,7 @@ function ProjectsHero() {
   return(
     <Hero>
     <Hero.Overlay />
-    <Hero.Content className="flex flex-col md:flex-row text-left">
+    <Hero.Content className=" text-left">
 
     <ul className="list-disc pb-4 pt-4"> <Link href ="https://flatironopensource.com/">Flatiron Open Source</Link>
         <li><Link href ="https://github.com/umuthopeyildirim/FlatironOpenSource">Github Link</Link></li>
