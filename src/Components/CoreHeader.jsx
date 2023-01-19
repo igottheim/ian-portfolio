@@ -4,7 +4,7 @@ import { BsGithub, BsLinkedin} from "react-icons/bs";
 
 function CoreHeader(){
     return (
-        <div className="flex flex-col md:flex-row font-sans">
+        <div className="flex flex-col w-full font-sans">
             <Navbar>
                 
                 <Navbar.Start> 
