@@ -1,13 +1,9 @@
 
 import CoreHeader from '../Components/CoreHeader';
-
-import'../assets/css/index.css';
-import '../assets/css/index1.css'
 import CoreFooter from '../Components/CoreFooter';
 import ProjectsHero from '../Components/Projects/ProjectsHero';
 
-
-
+import'../assets/css/index.css';
 
 function Projects() {
 
@@ -19,7 +15,5 @@ function Projects() {
    </>
   )
 }
-
-
 
 export default Projects
