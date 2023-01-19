@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Projects from './Views/Projects';
-import Resume from './Views/Resume'
-import './assets/css/index.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './assets/css/index.css';
+
+import Projects from './Views/Projects';
+import About from './Views/About'
+import WorkExperience from './Views/WorkExperience';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -11,8 +13,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
     <Routes>
         {/* Landing Pages */}
-        <Route path="/" element={<Projects>Testing</Projects>} />
-        <Route path="/course" element={<Resume>Testing</Resume>} />
+        <Route path="/" element={<About></About>} />
+        <Route path="/workexperience" element={<WorkExperience>Testing</WorkExperience>} />
+        <Route path="/projects" element={<Projects></Projects>} />
 
         {/* Error Pages */}
         {/* <Route path='/*' element={<NotFound />} /> */}
