@@ -5,19 +5,20 @@ import CoreHeader from '../Components/CoreHeader';
 import { Breadcrumbs } from "react-daisyui";
 
 import'../assets/css/index.css';
+import WorkExperienceHero from '../Components/WorkExperience/WorkExperienceHero';
 
-function About() {
-  const [count, setCount] = useState(0)
+function WorkExperience() {
+
 
   return (
     <>
     
     <CoreHeader></CoreHeader>
-   
+   <WorkExperienceHero></WorkExperienceHero>
    <CoreFooter></CoreFooter>
 
    </>
   )
 }
 
-export default About
+export default WorkExperience
